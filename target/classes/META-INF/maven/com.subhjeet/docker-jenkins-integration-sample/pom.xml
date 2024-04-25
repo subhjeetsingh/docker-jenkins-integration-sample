@@ -5,6 +5,10 @@
   <version>0.0.1-SNAPSHOT</version>
   <name>docker-jenkins-integration-sample</name>
   <description>Integration od Docker with Jenkins</description>
+  <properties>
+     <maven.compiler.source>1.8</maven.compiler.source>
+     <maven.compiler.target>1.8</maven.compiler.target>
+  </properties>
   <build>
 	<finalName>docker-jenkins-integration-sample</finalName>
   </build>
